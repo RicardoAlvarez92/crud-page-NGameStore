@@ -1,0 +1,33 @@
+/* body{
+  background-image: linear-gradient(to left top, #21a9dd, #6a96ea, #b577d4, #e5519a, #eb444c);
+} */
+main{
+  background-color: #21a9dd;
+}
+
+.col-lg-6{
+  background-image: url('../images/consolas.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.col-md-5{
+  background-color: #21a9dd;
+}
+
+.card{
+  border: none;
+}
+
+.btn{
+  background-color: #fe1114;
+}
+
+@media (min-width: 769px) {
+  main {
+    background-color: transparent; /* Esto quitará el fondo */
+  }
+}
+
+
+

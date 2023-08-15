@@ -1,0 +1,24 @@
+nav{
+  background-color: #21a9dd;
+}
+
+.btn{
+  background-color: #fe1114;
+}
+
+.card-header{
+  background-color: #fe1114;
+}
+
+.card-body{
+  background-color: #21a9dd;
+}
+
+body{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
