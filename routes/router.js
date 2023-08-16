@@ -10,5 +10,9 @@ router.get('/login', (req, res) => {
   res.render(path.join(__dirname,'../views/login2.ejs'));
 });
 
+router.get('/rap', (req, res) => {
+  res.render(path.join(__dirname,'../views/hola.ejs'));
+});
+
 
 module.exports = router;

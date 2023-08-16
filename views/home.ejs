@@ -1,9 +1,13 @@
-<!-- Set headers layout -->
+<!-- Include the header layout with specific stylesheet -->
 <%- include('components/headers.ejs', { css: 'public/css/home.css'}) %>
 
-<!-- Set main content into body for home page -->
+<!-- Include the navigation bar -->
+<%- include('components/navbar.ejs') %>
+
+<!-- Main content of the page -->
 	<main class="container-fluid mt-auto py-4">
   	<div class="row justify-content-evenly gap-4 gap-md-5 gap-lg-5">
+
 			<!-- Users button -->
 			<%- include('components/home/buttonDashboard.ejs', {
 				imgSrc: 'public/images/icons/users.png',
@@ -28,9 +32,13 @@
 				imgAlt: 'Orders',
 				buttonText: 'Orders'
 			}); %>
+
 		</div>
 	</main>
 
-<!-- Set footer layout -->
+<!-- Include the footer layout -->
 <%- include('components/footer.ejs') %>
+
+<!-- Include final scripts and close </body> and </html> tags -->
+<%- include('components/scripts.ejs') %>
 
